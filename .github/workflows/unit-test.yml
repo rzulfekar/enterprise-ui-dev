@@ -22,5 +22,5 @@ jobs:
       - name: Checkout Repository   
         uses: actions/setup-node@v3   
       - run: npm ci
-      - run: npm build
+      - run: npm run build
 
